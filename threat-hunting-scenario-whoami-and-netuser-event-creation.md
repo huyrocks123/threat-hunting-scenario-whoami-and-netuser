@@ -12,7 +12,7 @@ net localgroup administrators
 
 3. Redirect output to a text file:
 
-whoami > C:\Users\%USERNAME%\Desktop\recon.txt
+whoami > C:\Users\huy\Desktop\recon.txt
 
 ---
 
