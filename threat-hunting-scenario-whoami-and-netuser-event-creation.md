@@ -35,7 +35,8 @@ whoami > C:\Users\huy\Desktop\recon.txt
 ```kql
 // Detect reconnaissance commands
 DeviceProcessEvents
-| where ProcessCommandLine has_any ("whoami", "hostname", "net user", "net localgroup administrators")
+| where DeviceName == "threat-hunt-huy"
+| where ProcessCommandLine has_any ("whoami", "hostname", "net.exe")
 | project Timestamp, DeviceName, AccountName, ProcessCommandLine
 
 // Detect recon.txt file creation on Desktop
