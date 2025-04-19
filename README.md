@@ -68,7 +68,7 @@ DeviceFileEvents
 ### 2. File creation - recon.txt
 
 - **Timestamp:** `2025-04-19T22:49:54.0187491Z`
-- **Event:** The user "employee" redirected the output of the whoami command to a text file named recon.txt, which was created on the Desktop. This behavior is often seen during early-stage attacker activity when attempting to gather and store system information.
+- **Event:** The user "huy" redirected the output of the whoami command to a text file named recon.txt, which was created on the Desktop. This behavior is often seen during early-stage attacker activity when attempting to gather and store system information.
 - **Action:** File creation event detected.
 - **File Path:** `C:\Users\huy\Desktop`
 
